@@ -1,17 +1,46 @@
 # VARLYTIX — Portfolio Risk Intelligence & Quantitative Simulator
-> **"Understand your exposure. Measure uncertainty. Explore possible outcomes."**
-> 
-> *Day 22 of 90 Days – 90 Projects*
+> **"Understand your exposure. Measure uncertainty. Explore possible outcomes."**  
+> *Day 22 of the 90 Days – 90 Projects Challenge (AI & Quantitative Finance Portfolio)*
+
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-2563EB.svg?logo=python&logoColor=white)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.40+-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![SciPy](https://img.shields.io/badge/SciPy-1.18+-8CAAE6.svg?logo=scipy&logoColor=white)](https://scipy.org)
+[![Plotly](https://img.shields.io/badge/Plotly-6.0+-3F4F75.svg?logo=plotly&logoColor=white)](https://plotly.com)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0+-D71F00.svg?logo=sqlalchemy&logoColor=white)](https://sqlalchemy.org)
+[![ReportLab](https://img.shields.io/badge/ReportLab-5.1+-38BDF8.svg)](https://www.reportlab.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00D26A.svg)](LICENSE)
+[![Tests: 30 Passed](https://img.shields.io/badge/Tests-30%20Passed-00D26A.svg)](tests/)
+[![Market Focus: India NSE/BSE](https://img.shields.io/badge/Scope-India%20NSE%2FBSE-F59E0B.svg)](config.py)
+
+---
+
+## Visual Workstation Highlights
+
+| 01. Overview Workstation & Market Snapshot | 02. Active Holdings & Valuation Breakdown |
+| :---: | :---: |
+| ![Overview Workstation](screenshots/01_overview_workstation.png) | ![Active Holdings](screenshots/02_portfolio_active_holdings.png) |
+| **03. Position Logging & Cost Basis Engine** | **04. One-Click Indian Broker Statement Import** |
+| ![Log Transaction](screenshots/03_portfolio_log_transaction.png) | ![Broker Import](screenshots/04_portfolio_broker_import.png) |
+| **05. Risk Lab — 10-Factor Quantitative Metrics** | **06. Correlation Intelligence Matrix & Clusters** |
+| ![Risk Lab Core Metrics](screenshots/06_risk_lab_core_metrics.png) | ![Correlation Heatmap](screenshots/07_correlation_matrix_heatmap.png) |
+| **07. Monte Carlo 1,000-Path Uncertainty Fan Chart** | **08. Predefined Macroeconomic Stress Testing** |
+| ![Monte Carlo Simulation](screenshots/08_simulation_fan_chart.png) | ![Stress Testing Shocks](screenshots/09_stress_test_standard_shocks.png) |
+| **09. Granular Custom Asset Shock Builder** | **10. Historical Crisis Replay Engine** |
+| ![Custom Shock Simulator](screenshots/10_stress_test_custom_builder.png) | ![Historical Event Replay](screenshots/11_stress_test_historical_replay.png) |
+| **11. Markowitz Efficient Frontier & Target Weights** | **12. Interactive 'What If?' Rebalancing Sandbox** |
+| ![Efficient Frontier](screenshots/12_optimizer_efficient_frontier.png) | ![What If Rebalancer](screenshots/13_optimizer_what_if_rebalancer.png) |
+| **13. Institutional ReportLab PDF Risk Dossier** | **14. Market Data Centre & Quality Audit** |
+| ![Reports & PDF Dossier](screenshots/14_reports_and_dossier_export.png) | ![Data Quality Centre](screenshots/15_data_centre_quality_audit.png) |
 
 ---
 
 ## 1. Project Overview
 
-**VARLYTIX** is a professional quantitative portfolio risk analysis, stress testing, and stochastic simulation platform focused on Indian listed equities and ETFs (NSE/BSE).
+**VARLYTIX** is an institutional-grade quantitative portfolio risk analysis, stress testing, and stochastic simulation platform focused on Indian listed equities and ETFs (NSE/BSE).
 
-Traditional portfolio trackers evaluate investments strictly through the narrow lens of profit and loss (P&L). However, past return alone fails to illuminate underlying systemic fragility, concentration hazards, or market tail risks. 
+Traditional portfolio trackers evaluate investments strictly through the narrow lens of profit and loss (P&L). However, historical return alone fails to illuminate underlying systemic fragility, correlation spikes, concentration hazards, or market tail risks. 
 
-VARLYTIX provides institutional-grade risk metrics, Euler volatility decomposition, multi-regime stress testing, and Monte Carlo scenario modeling in an editorial research workstation.
+VARLYTIX provides deep risk decomposition, Euler component volatility attribution, multi-regime stress testing, and Monte Carlo scenario modeling within a high-performance **Midnight Pro** financial workstation.
 
 ### Key Questions Answered by VARLYTIX:
 - **How volatile is my portfolio?** (Annualized $\sigma$, daily dispersion, and 21-day moving volatility).
@@ -29,7 +58,7 @@ VARLYTIX provides institutional-grade risk metrics, Euler volatility decompositi
 
 VARLYTIX is styled in an authentic, high-end Stock Market App terminal design:
 
-- **Application Canvas (`#0B0F19`):** Deep Midnight Slate canvas for focus and low eye fatigue.
+- **Application Canvas (`#0B0F19`):** Deep Midnight Slate canvas for focus and minimal eye fatigue.
 - **Elevated Surfaces (`#121826`):** Sleek dark card surfaces and responsive analytical tables.
 - **Primary Typography (`#F8FAFC`):** Crisp white typography with tabular numerals for figures.
 - **Secondary Text (`#94A3B8`):** Cool slate for labels, subvalues, and units.
@@ -47,10 +76,10 @@ VARLYTIX is styled in an authentic, high-end Stock Market App terminal design:
 VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly 10 dedicated analytical modules:
 
 1. **Overview:** 
-   - **4 Core Investor Questions:** Direct clarity on Portfolio Value, Total Return, Annualized Volatility, and Maximum Drawdown.
-   - **8 Quantitative KPI Cards:** Value, Return, Volatility, Max Drawdown, Sharpe Ratio, Benchmark Beta, Value at Risk, and Holdings Structure.
+   - **Indian Market Snapshot Ribbon:** Transparent EOD benchmarks for NIFTY 50, SENSEX, BANK NIFTY, INDIA VIX, GOLD, and USD/INR.
+   - **8 Quantitative KPI Cards:** Portfolio Value, Total Return, Volatility, Max Drawdown, Sharpe Ratio, Benchmark Beta, Value at Risk, and Holdings Structure.
    - **Performance & Asset Allocation:** Normalized trajectory vs NIFTY 50 benchmark, allocation treemap, and underwater drawdown curve.
-   - **Contextual Methodology:** Accessible inline explanations of formulas and models without interrupting the analytical flow.
+   - **Risk & Factor Observations:** Structured analytical observations highlighting risk contribution, drawdown resilience, and market sensitivity.
 2. **Portfolio:** 
    - Position management with weighted-average cost transaction accounting.
    - **One-Click Indian Broker Statement Import:** Auto-detects and parses statements from **Zerodha (Kite)**, **Groww**, **Angel One**, and **Upstox**.
@@ -60,23 +89,17 @@ VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly
    - Stochastic Monte Carlo simulation (Historical Bootstrap and Multivariate Parametric modes).
    - **Monthly SIP Inflow Simulator:** Compounds recurring monthly SIP contributions into simulated paths.
    - **Goal-Based Target Probability Overlay:** Calculates exact mathematical probability of hitting financial wealth targets.
-6. **Stress Test:** Institutional macroeconomic stress testing (uniform market shocks, sector-specific drawdowns, custom idiosyncratic shocks, and historical crisis replays).
-7. **Optimizer:** Markowitz Modern Portfolio Theory, Minimum Variance, Maximum Sharpe, and interactive 'What If?' rebalancing sandbox.
-8. **Reports:** Publication-quality multi-page PDF risk dossier generation (ReportLab) and raw CSV matrix exports.
-9. **Data Centre:** Historical price observation auditing, gap detection, quality rating, and custom CSV end-of-day price uploads.
-10. **Settings:** Macro benchmark configuration (Indian 10Y G-Sec hurdle rate, 252-day annualization) and 1-click demo universe reload.
 6. **Stress Test:** Standard macro drawdowns (-10%, -15%, -25%), sector contagion shocks, tailored asset sliders, and historical crisis replays.
 7. **Optimizer:** 
    - Markowitz mean-variance optimization (Minimum Variance, Maximum Sharpe, Efficient Frontier).
    - **Interactive "What If?" Rebalancing Sandbox:** Real-time slider re-weighting with instant impact delta analysis and multi-asset safe-haven integration (GoldBeES & LiquidBeES).
 8. **Reports:** Publication-quality multi-page PDF generation via ReportLab and raw matrix CSV exports.
 9. **Data Centre:** Audit inspection of observation density, gap frequency, freshness statuses, and custom CSV historical price imports.
-10. **Methodology:** Transparent, educational documentation of all financial formulas, assumptions, and limitations.
-11. **Settings:** Global parameters (Rf rate, annualization trading days, cost basis, demo re-seeding).
+10. **Settings:** Global parameters (Rf rate, annualization trading days, cost basis, demo re-seeding).
 
 ---
 
-## 4. Folder Structure
+## 4. Directory Structure
 
 ```
 90-days-90-projects-day-22-varlytix/
@@ -88,6 +111,7 @@ VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly
 ├── setup.bat                  # One-click Windows environment installer
 ├── test.bat                   # Automated Pytest suite runner
 ├── README.md                  # Comprehensive product documentation
+├── LICENSE                    # MIT License
 │
 ├── pages/                     # Dedicated screen views
 │   ├── overview.py            # Screen 01: Portfolio Overview
@@ -99,23 +123,25 @@ VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly
 │   ├── optimizer.py           # Screen 07: Portfolio Optimizer & Efficient Frontier
 │   ├── reports.py             # Screen 08: PDF & CSV Report Generator
 │   ├── data_centre.py         # Screen 09: Data Quality & CSV Import
-│   ├── methodology.py         # Screen 10: Quantitative Foundations
-│   └── settings.py            # Screen 11: System Settings & Preferences
+│   └── settings.py            # Screen 10: System Settings & Preferences
 │
 ├── components/                # Reusable visual components
 │   ├── brand.py               # Custom geometric SVG logo, badges, favicon
-│   ├── navigation.py          # Global header & horizontal navbar
-│   ├── metric_display.py      # Editorial metric cards & observation banners
-│   └── chart_components.py    # Plotly interactive visualizations
+│   ├── navigation.py          # Global header, market snapshot ribbon & horizontal navbar
+│   ├── metric_display.py      # Editorial metric cards & observation panels
+│   ├── chart_components.py    # Plotly interactive visualizations
+│   └── what_if_rebalancer.py  # Interactive position rebalancer sandbox
 │
 ├── services/                  # Business & orchestration logic
 │   ├── portfolio_service.py   # Position CRUD & weighted-average cost accounting
 │   ├── market_data_service.py # Multi-asset synchronization & return alignment
+│   ├── market_snapshot_service.py # Indian market ribbon adapter
 │   ├── risk_service.py        # Quantitative risk aggregation & observations
 │   ├── simulation_service.py  # Monte Carlo orchestration & persistence
 │   ├── stress_test_service.py # Macro and tailored shock execution
 │   ├── optimization_service.py# Markowitz solver & frontier tracing
 │   ├── report_service.py      # ReportLab PDF & CSV builder
+│   ├── broker_import_service.py # Multi-broker statement parser
 │   └── data_quality_service.py# Gaps, freshness, and audit inspector
 │
 ├── providers/                 # Market data adapter architecture
@@ -137,30 +163,27 @@ VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly
 │   ├── stress_testing.py      # Uniform, sector, and custom shock models
 │   └── optimization.py        # SciPy SLSQP optimization & efficient frontier
 │
-├── data/                      # Local data folders
-│   ├── sample/                # Reference datasets
-│   ├── imports/               # Uploaded CSV historical series
-│   └── cache/                 # Cached returns & computations
-│
 ├── database/                  # SQLite storage
-│   └── varlytix.db             # Persistent SQLite database
+│   └── varlytix.db            # Persistent SQLite database
 │
 ├── scripts/                   # CLI execution utilities
 │   └── seed_demo_data.py      # Seeds 650 days of synthetic prices & 3 portfolios
 │
-├── tests/                     # Comprehensive unit test suite (Pytest)
-│   ├── test_portfolio.py      # Valuation & weighted-average cost tests
-│   ├── test_returns.py        # Return compounding & buy-and-hold tests
-│   ├── test_risk.py           # Volatility, drawdown, Sharpe, VaR/CVaR, Beta
-│   ├── test_correlation.py    # Covariance & Euler identity verification
-│   ├── test_simulation.py     # Monte Carlo reproducibility & bounds
-│   ├── test_stress.py         # Static & sector shock impact tests
-│   └── test_optimization.py   # SLSQP constraints & frontier tests
+├── screenshots/               # Visual workstation screenshots (15 captures)
+├── project screenshots/       # Visual workstation screenshots
 │
-└── docs/                      # Methodological references
-    ├── methodology.md         # Detailed mathematical equations & derivations
-    ├── data_sources.md        # Market data provider architecture
-    └── assumptions.md         # Financial assumptions & model limitations
+└── tests/                     # Comprehensive unit test suite (30 passed tests)
+    ├── test_portfolio.py      # Valuation & weighted-average cost tests
+    ├── test_returns.py        # Return compounding & buy-and-hold tests
+    ├── test_risk.py           # Volatility, drawdown, Sharpe, VaR/CVaR, Beta
+    ├── test_correlation.py    # Covariance & Euler identity verification
+    ├── test_simulation.py     # Monte Carlo reproducibility & bounds
+    ├── test_sip_simulation.py # SIP inflow & goal probability tests
+    ├── test_stress.py         # Static & sector shock impact tests
+    ├── test_optimization.py   # SLSQP constraints & frontier tests
+    ├── test_broker_import.py  # Zerodha, Groww, Angel One statement parsing
+    ├── test_health_score.py   # Composite portfolio health score tests
+    └── test_pages_import.py   # Page routing & navigation integrity tests
 ```
 
 ---
@@ -189,7 +212,7 @@ Double-click `setup.bat` to automatically build the virtual environment, install
 ### Manual PowerShell Setup
 ```powershell
 # 1. Navigate to project root
-cd "d:\90 days\90-days-90-projects-day-22-varlytix"
+cd "D:\90 days\90-days-90-projects-day-22-sigmora"
 
 # 2. Create virtual environment with Python 3.12
 python -m venv .venv
@@ -245,7 +268,7 @@ Run the full automated test suite verifying mathematical correctness:
 pytest tests -v
 ```
 
-All 21 comprehensive quantitative tests verify:
+All 30 comprehensive quantitative tests verify:
 - Weighted-average cost basis after multi-stage purchases and partial liquidations.
 - Buy-and-hold portfolio drift vs rebalanced returns.
 - Standard annualized volatility scaling ($\sigma_{\text{ann}} = \sigma_{\text{daily}} \times \sqrt{252}$).
@@ -254,6 +277,8 @@ All 21 comprehensive quantitative tests verify:
 - **Euler risk decomposition identity:** Verifies that $\sum \text{RC}_i$ strictly equals portfolio volatility $\sigma_p$ to numerical precision.
 - Monte Carlo reproducibility with seeds and monotonic percentile ordering ($P_5 \le P_{25} \le P_{50} \le P_{75} \le P_{95}$).
 - SciPy SLSQP optimization convergence and constraint enforcement ($\sum w_i = 1$, $0 \le w_i \le w_{\text{max}}$).
+- Multi-broker statement detection and parsing across Zerodha, Groww, Angel One, and Upstox formats.
+- Complete 10-workspace page routing and import integrity.
 
 ---
 
@@ -262,3 +287,14 @@ All 21 comprehensive quantitative tests verify:
 VARLYTIX is an analytical portfolio risk exploration platform. All statistics, Sharpe ratios, Value at Risk calculations, stress tests, and Monte Carlo simulations are hypothetical quantitative scenarios based on historical data and mathematical models. 
 
 **This software does not execute trades, guarantee future returns, or provide investment advice.** Historical market behavior and correlation patterns do not guarantee future results.
+
+---
+
+## 10. License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+Copyright (c) 2026 Ragu Ram P
+```
