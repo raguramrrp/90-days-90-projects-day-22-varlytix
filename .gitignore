@@ -15,14 +15,23 @@ ENV/
 htmlcov/
 
 # Local Database & Exports
+*.db
 *.db-journal
+*.sqlite
+*.sqlite3
 data/cache/*
 !data/cache/.gitkeep
 data/imports/*
 !data/imports/.gitkeep
+!database/.gitkeep
 
-# OS generated files
+# Automation scripts & redundant artifacts
+capture_screenshots.py
+project screenshots/
+test_*.py
+!tests/
+
+# OS generated files & logs
 .DS_Store
 Thumbs.db
 *.log
-

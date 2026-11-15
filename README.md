@@ -170,7 +170,6 @@ VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly
 │   └── seed_demo_data.py      # Seeds 650 days of synthetic prices & 3 portfolios
 │
 ├── screenshots/               # Visual workstation screenshots (15 captures)
-├── project screenshots/       # Visual workstation screenshots
 │
 └── tests/                     # Comprehensive unit test suite (30 passed tests)
     ├── test_portfolio.py      # Valuation & weighted-average cost tests
