@@ -32,8 +32,8 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "project screenshots")
 CHROME_PATH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 PYTHON_PATH = os.path.join(PROJECT_ROOT, ".venv", "Scripts", "python.exe")
-STREAMLIT_PORT = 8512
-CHROME_DEBUG_PORT = 9231
+STREAMLIT_PORT = 8513
+CHROME_DEBUG_PORT = 9232
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -217,7 +217,7 @@ async def main():
         # 1. Overview Dashboard Workstation
         # -----------------------------------------------------------------
         print("\n[1/15] Capturing 01_overview_workstation.png...", flush=True)
-        await asyncio.sleep(1.5)
+        await asyncio.sleep(4.0)
         await cdp.capture_screenshot(os.path.join(OUTPUT_DIR, "01_overview_workstation.png"))
 
         # -----------------------------------------------------------------
