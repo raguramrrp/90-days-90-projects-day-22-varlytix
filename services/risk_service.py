@@ -1,5 +1,5 @@
 """
-Risk Analytics Service for SIGMORA.
+Risk Analytics Service for VARLYTIX.
 Aggregates quantitative risk metrics, component risk contributions,
 benchmark beta, drawdown series, and automated risk observations.
 """

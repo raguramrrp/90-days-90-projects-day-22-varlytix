@@ -1,5 +1,5 @@
 """
-Screen 04 — Correlation Intelligence for SIGMORA.
+Screen 04 — Correlation Intelligence for VARLYTIX.
 Calculates Pearson co-movements across return frequencies (daily, weekly, monthly),
 visualizes annotated diverging heatmaps, identifies high/low correlation clusters,
 and tracks dynamic rolling correlation pairs.
@@ -11,7 +11,7 @@ import numpy as np
 import plotly.graph_objects as go
 from services.portfolio_service import PortfolioService
 from services.market_data_service import MarketDataService
-from components.chart_components import plot_correlation_heatmap, _apply_sigmora_layout
+from components.chart_components import plot_correlation_heatmap, _apply_varlytix_layout
 from config import COLORS
 
 
@@ -129,7 +129,7 @@ def render_correlation_page(db, portfolio_id: int):
         line=dict(color=COLORS["deep_teal"], width=2.0)
     ))
     fig_roll.add_hline(y=0.0, line_dash="dash", line_color=COLORS["slate"], line_width=1.0)
-    fig_roll = _apply_sigmora_layout(fig_roll, title=f"{roll_window}-Day Moving Correlation: {s1} vs {s2}", height=300)
+    fig_roll = _apply_varlytix_layout(fig_roll, title=f"{roll_window}-Day Moving Correlation: {s1} vs {s2}", height=300)
     fig_roll.update_layout(
         yaxis_title="Pearson Correlation (r)",
         yaxis=dict(range=[-1.05, 1.05], gridcolor=COLORS["border"]),

@@ -1,5 +1,5 @@
 """
-Plotly Interactive Chart Components for SIGMORA.
+Plotly Interactive Chart Components for VARLYTIX.
 Modern Stock Market App (Midnight Pro) visual design:
 - Deep Midnight Surface (#121826) & Slate dividers (#1E293B)
 - Electric Cobalt (#2563EB) & Tech Sky Cyan (#38BDF8) primary trajectory series
@@ -18,7 +18,7 @@ import plotly.express as px
 from config import COLORS
 
 
-def _apply_sigmora_layout(fig: go.Figure, title: str = "", height: int = 380) -> go.Figure:
+def _apply_varlytix_layout(fig: go.Figure, title: str = "", height: int = 380) -> go.Figure:
     """Applies modern stock market pro terminal styling to Plotly figures."""
     fig.update_layout(
         template="plotly_dark",
@@ -103,7 +103,7 @@ def plot_portfolio_performance(
                 hovertemplate="%{x|%d %b %Y}: <b>%{y:,.2f}</b><extra></extra>"
             ))
 
-    fig = _apply_sigmora_layout(fig, title="Historical Trajectory & Benchmark Comparison", height=380)
+    fig = _apply_varlytix_layout(fig, title="Historical Trajectory & Benchmark Comparison", height=380)
     fig.update_layout(yaxis_title=y_title)
     return fig
 
@@ -125,7 +125,7 @@ def plot_drawdown_curve(drawdown_df: pd.DataFrame) -> go.Figure:
         hovertemplate="%{x|%d %b %Y}: <b>%{y:.2f}%</b><extra></extra>"
     ))
 
-    fig = _apply_sigmora_layout(fig, title="Historical Underwater Drawdown Curve", height=280)
+    fig = _apply_varlytix_layout(fig, title="Historical Underwater Drawdown Curve", height=280)
     fig.update_layout(yaxis_title="Drawdown (%)", hovermode="x unified")
     return fig
 
@@ -156,7 +156,7 @@ def plot_correlation_heatmap(corr_matrix: pd.DataFrame) -> go.Figure:
         hovertemplate="Pair: %{x} vs %{y}<br>Correlation: <b>%{z:.3f}</b><extra></extra>"
     ))
 
-    fig = _apply_sigmora_layout(fig, title="Multi-Asset Correlation Matrix", height=440)
+    fig = _apply_varlytix_layout(fig, title="Multi-Asset Correlation Matrix", height=440)
     fig.update_layout(xaxis_tickangle=-35)
     return fig
 
@@ -273,7 +273,7 @@ def plot_monte_carlo_fan_chart(sim_data: Dict[str, Any]) -> go.Figure:
             hovertemplate=f"Goal Target: ₹ %{{y:,.0f}}{prob_str}<extra></extra>"
         ))
 
-    fig = _apply_sigmora_layout(fig, title="Monte Carlo Uncertainty Fan Chart (Simulated Portfolio Paths)", height=420)
+    fig = _apply_varlytix_layout(fig, title="Monte Carlo Uncertainty Fan Chart (Simulated Portfolio Paths)", height=420)
     fig.update_layout(xaxis_title="Trading Days into Future", yaxis_title="Simulated Portfolio Value (₹)")
     return fig
 
@@ -327,7 +327,7 @@ def plot_simulation_distribution(sim_data: Dict[str, Any]) -> go.Figure:
         annotation_font_size=9.5
     )
 
-    fig = _apply_sigmora_layout(fig, title="Distribution of Terminal Portfolio Outcomes", height=320)
+    fig = _apply_varlytix_layout(fig, title="Distribution of Terminal Portfolio Outcomes", height=320)
     fig.update_layout(xaxis_title="Ending Value (₹)", yaxis_title="Simulation Frequency", showlegend=False)
     return fig
 
@@ -358,7 +358,7 @@ def plot_risk_contribution_bars(risk_contrib_df: pd.DataFrame) -> go.Figure:
         hovertemplate="%{y}: <b>%{x:.1f}%</b> of risk<extra></extra>"
     ))
 
-    fig = _apply_sigmora_layout(fig, title="Euler Risk Contribution vs Capital Weight", height=320)
+    fig = _apply_varlytix_layout(fig, title="Euler Risk Contribution vs Capital Weight", height=320)
     fig.update_layout(barmode="group", xaxis_title="Percentage (%)")
     return fig
 
@@ -417,7 +417,7 @@ def plot_rolling_volatility(rolling_vol: pd.Series) -> go.Figure:
         hovertemplate="%{x|%d %b %Y}: <b>%{y:.1f}%</b><extra></extra>"
     ))
 
-    fig = _apply_sigmora_layout(fig, title="Historical Rolling Volatility (21-Day Annualized Window)", height=280)
+    fig = _apply_varlytix_layout(fig, title="Historical Rolling Volatility (21-Day Annualized Window)", height=280)
     fig.update_layout(yaxis_title="Annualized Volatility (%)")
     return fig
 
@@ -479,7 +479,7 @@ def plot_efficient_frontier(
             hovertemplate="Max Sharpe: Vol %{x:.1f}%, Ret %{y:.1f}%<extra></extra>"
         ))
 
-    fig = _apply_sigmora_layout(fig, title="Markowitz Efficient Frontier (Risk vs Expected Return)", height=380)
+    fig = _apply_varlytix_layout(fig, title="Markowitz Efficient Frontier (Risk vs Expected Return)", height=380)
     fig.update_layout(xaxis_title="Annualized Volatility (%)", yaxis_title="Expected Annual Return (%)")
     return fig
 
@@ -507,6 +507,6 @@ def plot_stress_comparison(stress_results: List[Dict[str, Any]]) -> go.Figure:
         marker=dict(color=COLORS["negative"], opacity=0.85)
     ))
 
-    fig = _apply_sigmora_layout(fig, title="Capital Impact across Macro Scenarios", height=320)
+    fig = _apply_varlytix_layout(fig, title="Capital Impact across Macro Scenarios", height=320)
     fig.update_layout(barmode="group", yaxis_title="Portfolio Value (₹)")
     return fig

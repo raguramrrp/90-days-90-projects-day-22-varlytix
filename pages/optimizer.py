@@ -1,5 +1,5 @@
 """
-Screen 07 — Portfolio Optimizer for SIGMORA.
+Screen 07 — Portfolio Optimizer for VARLYTIX.
 Calculates optimal Markowitz capital allocations (Minimum Variance, Maximum Sharpe),
 traces the Efficient Frontier, and compares candidate allocations against current weights.
 """
@@ -133,7 +133,7 @@ def render_optimizer_page(db, portfolio_id: int):
             f'Mathematical Sensitivity & Estimation Risk Warning</div>'
             f'<div style="font-size:11.5px;color:{COLORS["secondary_text"]};line-height:1.4;">'
             f'Markowitz mean-variance optimization is famously sensitive to input assumptions (the "error-maximizer" property). '
-            f'Historical sample returns and covariances contain estimation error. SIGMORA presents these candidate allocations '
+            f'Historical sample returns and covariances contain estimation error. VARLYTIX presents these candidate allocations '
             f'purely for analytical exploration and will never automatically modify your live portfolio weights without explicit manual execution.'
             f'</div>'
             f'</div>'

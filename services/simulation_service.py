@@ -1,5 +1,5 @@
 """
-Simulation Service for SIGMORA.
+Simulation Service for VARLYTIX.
 Orchestrates Monte Carlo runs, records simulation meta and percentiles in the database,
 and formats fan chart curves and probability distributions.
 """

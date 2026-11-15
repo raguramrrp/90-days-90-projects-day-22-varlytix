@@ -1,5 +1,5 @@
 """
-Covariance and Risk Contribution Analytics Module for SIGMORA.
+Covariance and Risk Contribution Analytics Module for VARLYTIX.
 Calculates sample covariance matrices, portfolio variance/volatility,
 marginal risk contribution (MRC), component risk contribution (RC),
 and percentage risk contribution (PRC).

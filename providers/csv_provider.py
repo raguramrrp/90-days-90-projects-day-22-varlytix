@@ -1,5 +1,5 @@
 """
-CSV Market Data Provider and File Validator for SIGMORA.
+CSV Market Data Provider and File Validator for VARLYTIX.
 Allows users to upload custom CSV historical price data with strict validation:
 date formats, positive prices, duplicate date detection, and column mapping.
 """

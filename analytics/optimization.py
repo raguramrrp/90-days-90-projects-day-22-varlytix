@@ -1,5 +1,5 @@
 """
-Portfolio Optimization Analytics Module for SIGMORA.
+Portfolio Optimization Analytics Module for VARLYTIX.
 Uses SciPy SLSQP optimization to compute:
 - Minimum Variance Portfolio
 - Maximum Sharpe Ratio Portfolio

@@ -1,5 +1,5 @@
 """
-Brand Components for SIGMORA.
+Brand Components for VARLYTIX.
 Custom geometric SVG logo combining a measured financial trajectory,
 calibrated analytical variance intervals (sigma envelope), and discreet quantitative nodes.
 Designed for a high-end, modern stock market analytics workstation (Midnight Pro).
@@ -8,7 +8,7 @@ Designed for a high-end, modern stock market analytics workstation (Midnight Pro
 from config import BRAND_NAME, BRAND_DESCRIPTOR, BRAND_TAGLINE, COLORS
 
 # Sleek geometric SVG logo tailored for Midnight Pro stock market terminal
-SIGMORA_LOGO_SVG = f"""<svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+VARLYTIX_LOGO_SVG = f"""<svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Dark coordinate framing -->
   <rect x="8" y="8" width="84" height="84" rx="16" fill="{COLORS['primary_surface']}" stroke="{COLORS['border']}" stroke-width="1.5"/>
   <!-- Calibrated uncertainty envelope (variance bounds) -->
@@ -21,8 +21,8 @@ SIGMORA_LOGO_SVG = f"""<svg width="40" height="40" viewBox="0 0 100 100" fill="n
   <circle cx="44" cy="68" r="3" fill="{COLORS['secondary_accent']}" stroke="{COLORS['primary_surface']}" stroke-width="1.5"/>
   <circle cx="62" cy="50" r="3.5" fill="{COLORS['primary_accent']}" stroke="{COLORS['primary_surface']}" stroke-width="1.5"/>
   <circle cx="82" cy="22" r="4.5" fill="{COLORS['positive']}" stroke="{COLORS['primary_surface']}" stroke-width="2"/>
-  <!-- Sigma glyph accent in upper left -->
-  <path d="M 26 22 L 38 22 L 32 30 L 38 38 L 26 38" stroke="{COLORS['secondary_accent']}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <!-- Geometric "V" monogram accent in upper left -->
+  <path d="M 24 24 L 33 42 L 42 24" stroke="{COLORS['secondary_accent']}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"/>
 </svg>"""
 
 FAVICON_SVG = f"""<svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@ FAVICON_SVG = f"""<svg width="32" height="32" viewBox="0 0 100 100" fill="none" 
 
 def get_logo_html(size: int = 36) -> str:
     """Returns SVG logo HTML formatted for embedding."""
-    return SIGMORA_LOGO_SVG.replace('width="40" height="40"', f'width="{size}" height="{size}"')
+    return VARLYTIX_LOGO_SVG.replace('width="40" height="40"', f'width="{size}" height="{size}"')
 
 
 def get_header_brand_html() -> str:

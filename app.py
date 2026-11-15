@@ -1,5 +1,5 @@
 """
-SIGMORA — Portfolio Risk Intelligence Platform
+VARLYTIX — Portfolio Risk Intelligence Platform
 Main Streamlit Application Entrypoint.
 Initializes the database, configures the modern stock market app (Midnight Pro) design system,
 renders global navigation, and routes to quantitative analytical workspaces.
@@ -211,7 +211,7 @@ def main():
 
     # If first run with empty DB, auto-seed demo data
     if not portfolios:
-        with st.spinner("Initializing SIGMORA with demo portfolio universe..."):
+        with st.spinner("Initializing VARLYTIX with demo portfolio universe..."):
             seed_all()
             portfolios = portfolio_service.list_portfolios()
 

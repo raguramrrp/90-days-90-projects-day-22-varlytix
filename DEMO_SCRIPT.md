@@ -1,11 +1,11 @@
-# SIGMORA Interactive Demo Script
+# VARLYTIX Interactive Demo Script
 
 Use this structured walkthrough for product presentations, live demos, or portfolio reviews.
 
 ---
 
 ## Act 1: Instant Clarity — Health Score & Plain-English Intelligence (1.5 mins)
-1. Launch SIGMORA at `http://localhost:8501`.
+1. Launch VARLYTIX at `http://localhost:8501`.
 2. Notice the clean, editorial research workstation design (no generic dark terminal, no noisy crypto widgets).
 3. Select **Balanced Growth Portfolio** from the global header.
 4. Highlight the **Portfolio Health Score (0–100)**:

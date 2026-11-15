@@ -1,5 +1,5 @@
 """
-Health Score & Executive Summary UI Component for SIGMORA.
+Health Score & Executive Summary UI Component for VARLYTIX.
 Renders an editorial card featuring:
 - 0–100 Circular-style Health Score with Grade & Badge
 - 4 Horizontal Progress Bars for each Pillar (Diversification, Downside, Efficiency, Tail-Risk)

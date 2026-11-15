@@ -1,5 +1,5 @@
 """
-Market Data Service for SIGMORA.
+Market Data Service for VARLYTIX.
 Orchestrates market data providers (Demo, Yahoo, CSV), manages database sync,
 aligns multi-asset price and return matrices, and tracks data quality/freshness.
 """

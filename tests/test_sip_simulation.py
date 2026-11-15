@@ -1,5 +1,5 @@
 """
-Unit Tests for SIGMORA Monte Carlo Monthly SIP & Goal Probability.
+Unit Tests for VARLYTIX Monte Carlo Monthly SIP & Goal Probability.
 """
 
 import pytest

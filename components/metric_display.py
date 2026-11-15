@@ -1,5 +1,5 @@
 """
-Metric Display and Quantitative Observation Components for SIGMORA.
+Metric Display and Quantitative Observation Components for VARLYTIX.
 Modern stock market app design system with elevated dark surfaces (#121826),
 crisp slate borders (#1E293B), tabular numerals, and vibrant bull-bear indicators.
 Strictly generated as single-line HTML without indentation to eliminate any

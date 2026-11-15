@@ -1,5 +1,5 @@
 """
-Data Quality and Health Inspection Service for SIGMORA.
+Data Quality and Health Inspection Service for VARLYTIX.
 Audits historical price coverage, gaps, freshness, and duplicate observations.
 """
 

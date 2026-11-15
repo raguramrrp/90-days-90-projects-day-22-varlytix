@@ -1,5 +1,5 @@
 """
-Horizontal Navigation and Global Header Component for SIGMORA.
+Horizontal Navigation and Global Header Component for VARLYTIX.
 Modern Stock Market App (Midnight Pro) layout:
 - Deep midnight header with subtle dark slate borders (#1E293B)
 - Clean brand identity
@@ -108,7 +108,7 @@ def render_global_header(portfolios, current_portfolio_id: int):
                 if chosen and chosen in name_to_id:
                     st.session_state["current_portfolio_id"] = name_to_id[chosen]
 
-            # Compact selector width under SIGMORA title
+            # Compact selector width under VARLYTIX title
             c_sel, _ = st.columns([5.2, 6.8])
             with c_sel:
                 st.selectbox(

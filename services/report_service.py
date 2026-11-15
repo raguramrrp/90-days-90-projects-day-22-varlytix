@@ -1,5 +1,5 @@
 """
-Professional PDF and CSV Reporting Service for SIGMORA.
+Professional PDF and CSV Reporting Service for VARLYTIX.
 Generates comprehensive quantitative risk reports using ReportLab with editorial styling
 and clean CSV data exports.
 """
@@ -281,7 +281,7 @@ class ReportService:
         story.append(HRFlowable(width="100%", thickness=0.5, color=colors.HexColor(self.colors["border"])))
         story.append(Spacer(1, 6))
         story.append(Paragraph(
-            "<b>REGULATORY AND STATISTICAL DISCLAIMER:</b> SIGMORA is an analytical portfolio risk exploration platform. "
+            "<b>REGULATORY AND STATISTICAL DISCLAIMER:</b> VARLYTIX is an analytical portfolio risk exploration platform. "
             "All metrics, ratios, simulations, and stress tests are hypothetical quantitative representations based on historical price series and statistical models. "
             "They do not constitute investment advice, guarantees of future returns, or trade recommendations. "
             "Past performance and historical correlation structures do not guarantee future market behavior.",

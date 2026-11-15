@@ -1,5 +1,5 @@
 """
-Drawdown Analytics Module for SIGMORA.
+Drawdown Analytics Module for VARLYTIX.
 Calculates running peak, underwater drawdown series, maximum drawdown,
 average drawdown, and Calmar ratio.
 """

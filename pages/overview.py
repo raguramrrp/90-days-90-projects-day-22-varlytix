@@ -1,5 +1,5 @@
 """
-Screen 01 — Portfolio Overview for SIGMORA.
+Screen 01 — Portfolio Overview for VARLYTIX.
 Refined Editorial Research Workspace answering 4 core investor questions:
 1. What is my portfolio worth?
 2. How has it performed?

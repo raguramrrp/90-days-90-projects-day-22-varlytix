@@ -1,5 +1,5 @@
 """
-Yahoo-Compatible Market Data Provider Adapter for SIGMORA.
+Yahoo-Compatible Market Data Provider Adapter for VARLYTIX.
 Supports retrieving Indian listed equities and indices via Yahoo Finance API conventions.
 Symbols for NSE are suffixed with .NS, BSE with .BO.
 """

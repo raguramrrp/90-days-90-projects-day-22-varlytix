@@ -1,5 +1,5 @@
 """
-Market Snapshot Service for SIGMORA.
+Market Snapshot Service for VARLYTIX.
 Retrieves and caches verified Indian market benchmarks:
 - NIFTY 50 (^NSEI)
 - SENSEX (^BSESN)

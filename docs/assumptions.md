@@ -1,4 +1,4 @@
-# SIGMORA — Quantitative Assumptions & Limitations
+# VARLYTIX — Quantitative Assumptions & Limitations
 
 ## 1. Baseline Assumptions
 
@@ -25,4 +25,4 @@ The Portfolio Optimizer utilizes historical sample mean returns and covariance e
 ---
 
 ## 3. Regulatory Disclaimer
-SIGMORA is an educational and analytical research simulator. It does not provide automated trading, guaranteed returns, or certified financial advice. Users should consult licensed financial advisors before committing capital.
+VARLYTIX is an educational and analytical research simulator. It does not provide automated trading, guaranteed returns, or certified financial advice. Users should consult licensed financial advisors before committing capital.

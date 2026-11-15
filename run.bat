@@ -1,7 +1,7 @@
 @echo off
-REM SIGMORA - Application Launch Script
+REM VARLYTIX - Application Launch Script
 echo ========================================================
-echo   SIGMORA -- Portfolio Risk Intelligence Platform
+echo   VARLYTIX -- Portfolio Risk Intelligence Platform
 echo   Launching Streamlit Quantitative Analytics Terminal...
 echo ========================================================
 

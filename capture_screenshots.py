@@ -1,5 +1,5 @@
 """
-SIGMORA — Automated 15-Feature Visual Workstation Capture Script
+VARLYTIX — Automated 15-Feature Visual Workstation Capture Script
 Captures exactly 15 high-fidelity screenshots showcasing core features and distinct workflows:
 1.  01_overview_workstation.png
 2.  02_portfolio_active_holdings.png
@@ -28,12 +28,12 @@ import time
 import urllib.request
 import websockets
 
-PROJECT_ROOT = r"D:\90 days\90-days-90-projects-day-22-sigmora"
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "project screenshots")
 CHROME_PATH = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 PYTHON_PATH = os.path.join(PROJECT_ROOT, ".venv", "Scripts", "python.exe")
-STREAMLIT_PORT = 8511
-CHROME_DEBUG_PORT = 9230
+STREAMLIT_PORT = 8512
+CHROME_DEBUG_PORT = 9231
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -92,7 +92,7 @@ def wait_for_http(url, timeout=30):
     start = time.time()
     while time.time() - start < timeout:
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "SIGMORA-Capture"})
+            req = urllib.request.Request(url, headers={"User-Agent": "VARLYTIX-Capture"})
             with urllib.request.urlopen(req, timeout=2.0) as resp:
                 if resp.status == 200:
                     return True
@@ -104,7 +104,7 @@ def wait_for_http(url, timeout=30):
 
 async def main():
     print("=" * 65, flush=True)
-    print("   SIGMORA — 15 Distinct Features Visual Workstation Capture     ", flush=True)
+    print("   VARLYTIX — 15 Distinct Features Visual Workstation Capture     ", flush=True)
     print("=" * 65, flush=True)
 
     # 1. Start Streamlit on custom port

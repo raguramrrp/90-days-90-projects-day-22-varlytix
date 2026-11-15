@@ -1,5 +1,5 @@
 """
-Screen 05 — Monte Carlo Simulation Lab for SIGMORA.
+Screen 05 — Monte Carlo Simulation Lab for VARLYTIX.
 Signature quantitative simulation suite featuring:
 - Joint Historical Bootstrap (Vector resampling preserving empirical fat tails & co-movement)
 - Multivariate Parametric Simulation (Correlated normal returns with positive semi-definite covariance)

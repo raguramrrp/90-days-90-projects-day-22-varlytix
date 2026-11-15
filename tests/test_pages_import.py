@@ -1,5 +1,5 @@
 """
-Unit test to verify that all 10 SIGMORA pages import correctly and exposure functions exist,
+Unit test to verify that all 10 VARLYTIX pages import correctly and exposure functions exist,
 and that Methodology is completely removed.
 """
 

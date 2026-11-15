@@ -1,4 +1,4 @@
-# SIGMORA — Portfolio Risk Intelligence & Quantitative Simulator
+# VARLYTIX — Portfolio Risk Intelligence & Quantitative Simulator
 > **"Understand your exposure. Measure uncertainty. Explore possible outcomes."**
 > 
 > *Day 22 of 90 Days – 90 Projects*
@@ -7,13 +7,13 @@
 
 ## 1. Project Overview
 
-**SIGMORA** is a professional quantitative portfolio risk analysis, stress testing, and stochastic simulation platform focused on Indian listed equities and ETFs (NSE/BSE).
+**VARLYTIX** is a professional quantitative portfolio risk analysis, stress testing, and stochastic simulation platform focused on Indian listed equities and ETFs (NSE/BSE).
 
 Traditional portfolio trackers evaluate investments strictly through the narrow lens of profit and loss (P&L). However, past return alone fails to illuminate underlying systemic fragility, concentration hazards, or market tail risks. 
 
-SIGMORA provides institutional-grade risk metrics, Euler volatility decomposition, multi-regime stress testing, and Monte Carlo scenario modeling in an editorial research workstation.
+VARLYTIX provides institutional-grade risk metrics, Euler volatility decomposition, multi-regime stress testing, and Monte Carlo scenario modeling in an editorial research workstation.
 
-### Key Questions Answered by SIGMORA:
+### Key Questions Answered by VARLYTIX:
 - **How volatile is my portfolio?** (Annualized $\sigma$, daily dispersion, and 21-day moving volatility).
 - **Which asset contributes the most to overall portfolio risk?** (Euler component volatility contribution vs invested capital weight).
 - **Are my holdings moving in lockstep?** (Pearson correlation heatmaps across daily, weekly, and monthly frequencies).
@@ -27,7 +27,7 @@ SIGMORA provides institutional-grade risk metrics, Euler volatility decompositio
 
 ## 2. Visual Identity & Modern Stock Market Theme (Midnight Pro)
 
-SIGMORA is styled in an authentic, high-end Stock Market App terminal design:
+VARLYTIX is styled in an authentic, high-end Stock Market App terminal design:
 
 - **Application Canvas (`#0B0F19`):** Deep Midnight Slate canvas for focus and low eye fatigue.
 - **Elevated Surfaces (`#121826`):** Sleek dark card surfaces and responsive analytical tables.
@@ -44,7 +44,7 @@ SIGMORA is styled in an authentic, high-end Stock Market App terminal design:
 
 ## 3. Workstation Navigation & Architecture
 
-SIGMORA provides a clean **horizontal workstation navigation bar** with exactly 10 dedicated analytical modules:
+VARLYTIX provides a clean **horizontal workstation navigation bar** with exactly 10 dedicated analytical modules:
 
 1. **Overview:** 
    - **4 Core Investor Questions:** Direct clarity on Portfolio Value, Total Return, Annualized Volatility, and Maximum Drawdown.
@@ -79,7 +79,7 @@ SIGMORA provides a clean **horizontal workstation navigation bar** with exactly 
 ## 4. Folder Structure
 
 ```
-90-days-90-projects-day-22-sigmora/
+90-days-90-projects-day-22-varlytix/
 ├── app.py                     # Main Streamlit workstation entrypoint
 ├── config.py                  # Global brand constants, palette, financial defaults
 ├── requirements.txt           # Python dependencies
@@ -143,7 +143,7 @@ SIGMORA provides a clean **horizontal workstation navigation bar** with exactly 
 │   └── cache/                 # Cached returns & computations
 │
 ├── database/                  # SQLite storage
-│   └── sigmora.db             # Persistent SQLite database
+│   └── varlytix.db             # Persistent SQLite database
 │
 ├── scripts/                   # CLI execution utilities
 │   └── seed_demo_data.py      # Seeds 650 days of synthetic prices & 3 portfolios
@@ -189,7 +189,7 @@ Double-click `setup.bat` to automatically build the virtual environment, install
 ### Manual PowerShell Setup
 ```powershell
 # 1. Navigate to project root
-cd "d:\90 days\90-days-90-projects-day-22-sigmora"
+cd "d:\90 days\90-days-90-projects-day-22-varlytix"
 
 # 2. Create virtual environment with Python 3.12
 python -m venv .venv
@@ -207,7 +207,7 @@ python scripts\seed_demo_data.py
 # 6. Run complete unit test suite
 pytest tests -v
 
-# 7. Launch SIGMORA
+# 7. Launch VARLYTIX
 streamlit run app.py
 ```
 
@@ -215,7 +215,7 @@ streamlit run app.py
 
 ## 7. Deterministic Demo Mode Universe
 
-SIGMORA initializes with a deterministic synthetic market universe representing 10 major Indian equities and the NIFTY 50 benchmark over **650 continuous trading days (~2.5 years)**:
+VARLYTIX initializes with a deterministic synthetic market universe representing 10 major Indian equities and the NIFTY 50 benchmark over **650 continuous trading days (~2.5 years)**:
 
 | Symbol | Company Name | Sector | Base Price | Annual Volatility |
 | :--- | :--- | :--- | :--- | :--- |
@@ -259,6 +259,6 @@ All 21 comprehensive quantitative tests verify:
 
 ## 9. Regulatory & Financial Disclaimer
 
-SIGMORA is an analytical portfolio risk exploration platform. All statistics, Sharpe ratios, Value at Risk calculations, stress tests, and Monte Carlo simulations are hypothetical quantitative scenarios based on historical data and mathematical models. 
+VARLYTIX is an analytical portfolio risk exploration platform. All statistics, Sharpe ratios, Value at Risk calculations, stress tests, and Monte Carlo simulations are hypothetical quantitative scenarios based on historical data and mathematical models. 
 
 **This software does not execute trades, guarantee future returns, or provide investment advice.** Historical market behavior and correlation patterns do not guarantee future results.

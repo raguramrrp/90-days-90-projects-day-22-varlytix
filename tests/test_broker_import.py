@@ -1,5 +1,5 @@
 """
-Unit Tests for SIGMORA Broker Statement Import Engine.
+Unit Tests for VARLYTIX Broker Statement Import Engine.
 """
 
 import pytest

@@ -1,5 +1,5 @@
 """
-Screen 09 — Data Centre for SIGMORA.
+Screen 09 — Data Centre for VARLYTIX.
 Audits historical market data freshness, gaps, and quality metrics across all registered assets.
 Supports custom CSV price imports with schema validation and preview.
 """

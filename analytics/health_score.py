@@ -1,5 +1,5 @@
 """
-Portfolio Health Score & Plain-English Executive Intelligence Engine for SIGMORA.
+Portfolio Health Score & Plain-English Executive Intelligence Engine for VARLYTIX.
 Calculates a holistic 0–100 score across 4 quantitative pillars:
 1. Diversification Pillar (Effective N, concentration penalty, multi-asset hedge)
 2. Downside Resilience Pillar (Maximum Drawdown & recovery cushion)

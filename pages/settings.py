@@ -1,5 +1,5 @@
 """
-Screen 11 — System Settings & Quantitative Preferences for SIGMORA.
+Screen 11 — System Settings & Quantitative Preferences for VARLYTIX.
 Allows configuring risk-free rates, annualization factors, benchmark assets,
 and re-seeding the demo dataset.
 """
@@ -47,7 +47,7 @@ def render_settings_page(db, portfolio_id: int):
         st.markdown(f"<hr style='border: 0.5px solid {COLORS['border']}; margin: 18px 0;'>", unsafe_allow_html=True)
         st.markdown("### Software Architecture & License")
         st.markdown("""
-        - **Product:** SIGMORA — Portfolio Risk Intelligence
+        - **Product:** VARLYTIX — Portfolio Risk Intelligence
         - **Engine:** Python 3.12, NumPy, SciPy, Pandas, Plotly, SQLAlchemy, SQLite, ReportLab
         - **Market Focus:** Indian Listed Equities & ETFs (NSE/BSE)
         - **Status:** Day 22 of 90 Days – 90 Projects

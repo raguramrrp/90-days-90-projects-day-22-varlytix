@@ -1,7 +1,7 @@
 @echo off
-REM SIGMORA - Environment Setup Script
+REM VARLYTIX - Environment Setup Script
 echo ========================================================
-echo   SIGMORA -- Automated Environment Setup (Windows)
+echo   VARLYTIX -- Automated Environment Setup (Windows)
 echo ========================================================
 
 cd /d "%~dp0"
@@ -28,7 +28,7 @@ echo [*] Running automated tests...
 pytest tests -q
 
 echo ========================================================
-echo [SUCCESS] SIGMORA setup completed successfully.
+echo [SUCCESS] VARLYTIX setup completed successfully.
 echo Run 'run.bat' or 'streamlit run app.py' to launch.
 echo ========================================================
 pause

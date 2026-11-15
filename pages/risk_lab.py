@@ -1,5 +1,5 @@
 """
-Screen 03 — Risk Lab for SIGMORA.
+Screen 03 — Risk Lab for VARLYTIX.
 Core quantitative risk research laboratory computing annualized volatility,
 drawdown severity, tail risk (VaR/CVaR), and Euler component risk contributions.
 """
@@ -14,7 +14,7 @@ from services.portfolio_service import PortfolioService
 from components.metric_display import render_metric_card
 from components.chart_components import (
     plot_risk_contribution_bars, plot_drawdown_curve,
-    plot_rolling_volatility, _apply_sigmora_layout
+    plot_rolling_volatility, _apply_varlytix_layout
 )
 from config import COLORS, DEFAULT_RISK_FREE_RATE, DEFAULT_TRADING_DAYS
 
@@ -195,7 +195,7 @@ def render_risk_lab_page(db, portfolio_id: int):
                 name="Portfolio",
                 marker=dict(color=COLORS["amber"], size=13, symbol="diamond")
             ))
-            fig_scat = _apply_sigmora_layout(fig_scat, title="Risk-Return Scatter (Individual Assets vs Portfolio)", height=280)
+            fig_scat = _apply_varlytix_layout(fig_scat, title="Risk-Return Scatter (Individual Assets vs Portfolio)", height=280)
             fig_scat.update_layout(
                 xaxis_title="Annualized Volatility (%)",
                 yaxis_title="Annualized Return (%)",

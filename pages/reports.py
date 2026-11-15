@@ -1,5 +1,5 @@
 """
-Screen 08 — Reports & Data Export for SIGMORA.
+Screen 08 — Reports & Data Export for VARLYTIX.
 Generates publication-quality PDF Risk Dossiers via ReportLab and
 provides structured CSV exports for external quantitative analysis.
 """
@@ -72,7 +72,7 @@ def render_reports_page(db, portfolio_id: int):
                     sim_data=sim_data
                 )
                 ts = datetime.now().strftime("%Y%m%d_%H%M")
-                fname = f"SIGMORA_Risk_Report_{portfolio.portfolio_name.replace(' ', '_')}_{ts}.pdf"
+                fname = f"VARLYTIX_Risk_Report_{portfolio.portfolio_name.replace(' ', '_')}_{ts}.pdf"
                 st.download_button(
                     label="Click Here to Save PDF",
                     data=pdf_bytes,

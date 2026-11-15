@@ -1,5 +1,5 @@
 """
-Unit Tests for SIGMORA Portfolio Health Score & Executive Summary Engine.
+Unit Tests for VARLYTIX Portfolio Health Score & Executive Summary Engine.
 """
 
 import pytest

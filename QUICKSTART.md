@@ -1,6 +1,6 @@
-# SIGMORA Quickstart Guide
+# VARLYTIX Quickstart Guide
 
-Get up and running with SIGMORA in under 2 minutes.
+Get up and running with VARLYTIX in under 2 minutes.
 
 ---
 
@@ -9,7 +9,7 @@ Get up and running with SIGMORA in under 2 minutes.
 Simply double-click `run.bat` in the project folder, or execute via PowerShell:
 
 ```powershell
-cd "d:\90 days\90-days-90-projects-day-22-sigmora"
+cd "d:\90 days\90-days-90-projects-day-22-varlytix"
 .\.venv\Scripts\activate.ps1
 streamlit run app.py
 ```

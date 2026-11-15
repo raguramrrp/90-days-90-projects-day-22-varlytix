@@ -1,5 +1,5 @@
 """
-Portfolio Optimization Service for SIGMORA.
+Portfolio Optimization Service for VARLYTIX.
 Calculates optimal asset allocations (Min Variance, Max Sharpe),
 generates Markowitz Efficient Frontier curves, and compares candidate allocations.
 """

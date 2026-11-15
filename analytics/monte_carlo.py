@@ -1,5 +1,5 @@
 """
-Monte Carlo Simulation Engine for SIGMORA.
+Monte Carlo Simulation Engine for VARLYTIX.
 Supports:
 1. Method A: Historical Bootstrap (joint cross-asset vector resampling with optional block bootstrap)
 2. Method B: Multivariate Parametric Simulation (correlated Gaussian returns with nearest PSD covariance)

@@ -1,5 +1,5 @@
 """
-Base Market Data Provider Interface for SIGMORA.
+Base Market Data Provider Interface for VARLYTIX.
 Defines abstract contracts for asset searching, historical price retrieval,
 metadata discovery, and provider health verification.
 """

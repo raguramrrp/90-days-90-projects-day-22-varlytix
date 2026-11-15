@@ -1,7 +1,7 @@
-# SIGMORA — Market Data Sources & Provider Architecture
+# VARLYTIX — Market Data Sources & Provider Architecture
 
 ## Architecture Overview
-SIGMORA adheres to a provider-independent adapter architecture. No single data provider is hardcoded into the business logic.
+VARLYTIX adheres to a provider-independent adapter architecture. No single data provider is hardcoded into the business logic.
 
 ```
                   ┌──────────────────────────────┐

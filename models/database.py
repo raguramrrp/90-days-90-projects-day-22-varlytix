@@ -1,5 +1,5 @@
 """
-Database Models & SQLAlchemy Schema for SIGMORA.
+Database Models & SQLAlchemy Schema for VARLYTIX.
 Supports SQLite with robust relationships, indexes, and constraints.
 """
 

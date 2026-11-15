@@ -1,5 +1,5 @@
 """
-Quantitative Return Analytics Module for SIGMORA.
+Quantitative Return Analytics Module for VARLYTIX.
 Calculates simple returns, log returns, cumulative returns,
 geometric annualized returns, and buy-and-hold vs rebalanced portfolio trajectories.
 """

@@ -1,5 +1,5 @@
 """
-Value-at-Risk (VaR), Conditional VaR (CVaR), and Beta Analytics for SIGMORA.
+Value-at-Risk (VaR), Conditional VaR (CVaR), and Beta Analytics for VARLYTIX.
 Calculates historical quantile-based VaR & CVaR, parametric VaR, and benchmark Beta.
 """
 

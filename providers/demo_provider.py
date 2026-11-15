@@ -1,5 +1,5 @@
 """
-Deterministic Synthetic Market Data Provider for SIGMORA.
+Deterministic Synthetic Market Data Provider for VARLYTIX.
 Generates reproducible daily historical market series for Indian equities & ETFs
 using multivariate geometric Brownian motion with realistic sector covariances.
 """

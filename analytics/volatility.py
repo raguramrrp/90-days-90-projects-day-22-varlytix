@@ -1,5 +1,5 @@
 """
-Quantitative Volatility and Risk-Adjusted Ratios for SIGMORA.
+Quantitative Volatility and Risk-Adjusted Ratios for VARLYTIX.
 Calculates annualized volatility, downside deviation, rolling volatility,
 Sharpe ratio, and Sortino ratio.
 """

@@ -1,5 +1,5 @@
 """
-Stress Testing Analytics Module for SIGMORA.
+Stress Testing Analytics Module for VARLYTIX.
 Calculates portfolio and asset-level impacts under predefined, sector-specific,
 historical, and custom shock scenarios.
 """

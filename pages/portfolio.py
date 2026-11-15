@@ -1,5 +1,5 @@
 """
-Screen 02 — Portfolio Management for SIGMORA.
+Screen 02 — Portfolio Management for VARLYTIX.
 Enables creating/renaming/deleting portfolios, logging transactions (Buy/Sell)
 with weighted-average cost basis accounting, and editing holdings.
 """

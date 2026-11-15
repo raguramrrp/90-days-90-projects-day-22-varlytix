@@ -1,5 +1,5 @@
 """
-SIGMORA Configuration Module
+VARLYTIX Configuration Module
 Brand Identity, Design Palette, Financial Constants, and System Settings.
 """
 
@@ -10,7 +10,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DATABASE_DIR = BASE_DIR / "database"
-DATABASE_PATH = DATABASE_DIR / "sigmora.db"
+DATABASE_PATH = DATABASE_DIR / "varlytix.db"
 SAMPLE_DATA_DIR = DATA_DIR / "sample"
 CACHE_DIR = DATA_DIR / "cache"
 IMPORTS_DIR = DATA_DIR / "imports"
@@ -21,10 +21,10 @@ for folder in [DATA_DIR, DATABASE_DIR, SAMPLE_DATA_DIR, CACHE_DIR, IMPORTS_DIR, 
     folder.mkdir(parents=True, exist_ok=True)
 
 # Database URI
-DATABASE_URL = os.getenv("SIGMORA_DATABASE_URL", f"sqlite:///{DATABASE_PATH.as_posix()}")
+DATABASE_URL = os.getenv("VARLYTIX_DATABASE_URL", f"sqlite:///{DATABASE_PATH.as_posix()}")
 
 # Brand Identity
-BRAND_NAME = "SIGMORA"
+BRAND_NAME = "VARLYTIX"
 BRAND_DESCRIPTOR = "Portfolio Risk Intelligence"
 BRAND_TAGLINE = "Understand your exposure. Measure uncertainty. Explore possible outcomes."
 MARKET_FOCUS = "Indian Equities & ETFs"

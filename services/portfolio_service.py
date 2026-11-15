@@ -1,5 +1,5 @@
 """
-Portfolio Service for SIGMORA.
+Portfolio Service for VARLYTIX.
 Handles portfolio CRUD, transactions, weighted-average cost accounting,
 position management, and portfolio switching.
 """

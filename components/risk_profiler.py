@@ -1,5 +1,5 @@
 """
-4-Question Investor Risk Appetite Profiler for SIGMORA.
+4-Question Investor Risk Appetite Profiler for VARLYTIX.
 Engages everyday investors with an intuitive 4-question behavioral assessment
 and contrasts stated psychological risk tolerance against actual quantitative portfolio volatility.
 """

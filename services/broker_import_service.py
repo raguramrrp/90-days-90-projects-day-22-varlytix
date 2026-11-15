@@ -1,5 +1,5 @@
 """
-Broker Statement Import Service for SIGMORA.
+Broker Statement Import Service for VARLYTIX.
 Supports 1-click auto-detection and parsing of portfolio holdings from:
 - Zerodha Kite / Console (.csv, .xlsx)
 - Groww (.csv, .xlsx)

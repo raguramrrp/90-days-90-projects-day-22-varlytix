@@ -1,5 +1,5 @@
 """
-Stress Testing Service for SIGMORA.
+Stress Testing Service for VARLYTIX.
 Applies predefined, sector, historical, and custom shocks to portfolio holdings
 and records scenario results in the database.
 """

@@ -1,5 +1,5 @@
 """
-Seed Script for SIGMORA.
+Seed Script for VARLYTIX.
 Initializes the database, generates 650+ trading days of correlated synthetic market data,
 and creates 3 realistic sample portfolios with multi-asset holdings and transactions.
 """
@@ -20,7 +20,7 @@ from datetime import date, timedelta
 
 def seed_all():
     print("=" * 60)
-    print("SIGMORA — SEEDING DEMO MARKET UNIVERSE & SAMPLE PORTFOLIOS")
+    print("VARLYTIX — SEEDING DEMO MARKET UNIVERSE & SAMPLE PORTFOLIOS")
     print("=" * 60)
 
     # Initialize tables
@@ -149,7 +149,7 @@ def seed_all():
     print(f"  [✓] Created: {p4.portfolio_name} ({len(p4_allocations)} positions)")
 
     db.close()
-    print("\n[SUCCESS] Seed complete. SIGMORA is fully initialized with realistic synthetic demo data.")
+    print("\n[SUCCESS] Seed complete. VARLYTIX is fully initialized with realistic synthetic demo data.")
 
 
 if __name__ == "__main__":

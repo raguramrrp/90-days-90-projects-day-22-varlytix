@@ -1,5 +1,5 @@
 """
-Interactive "What If?" Rebalancing Sandbox for SIGMORA.
+Interactive "What If?" Rebalancing Sandbox for VARLYTIX.
 Allows investors to dynamically adjust asset weights via sliders,
 add safe-haven assets (Gold / Liquid Debt), and instantly observe real-time
 changes to Expected Return, Volatility, Sharpe Ratio, Drawdown, and VaR.

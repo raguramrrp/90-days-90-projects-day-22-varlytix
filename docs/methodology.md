@@ -1,7 +1,7 @@
-# SIGMORA — Mathematical Methodology & Analytical Formulations
+# VARLYTIX — Mathematical Methodology & Analytical Formulations
 
 ## Executive Summary
-SIGMORA evaluates investment portfolio risk from a multi-dimensional perspective, transcending simple profit and loss. It models return distributions, volatility clustering, tail risk, and structural co-movements for Indian listed equities and ETFs.
+VARLYTIX evaluates investment portfolio risk from a multi-dimensional perspective, transcending simple profit and loss. It models return distributions, volatility clustering, tail risk, and structural co-movements for Indian listed equities and ETFs.
 
 ---
 

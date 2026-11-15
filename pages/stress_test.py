@@ -1,5 +1,5 @@
 """
-Screen 06 — Stress Test Lab for SIGMORA.
+Screen 06 — Stress Test Lab for VARLYTIX.
 Evaluates portfolio resilience against systemic market shocks, sector-specific drawdowns,
 historical crisis replays, and custom asset-level stress scenarios.
 """

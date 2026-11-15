@@ -1,7 +1,7 @@
 @echo off
-REM SIGMORA - Test Suite Runner
+REM VARLYTIX - Test Suite Runner
 echo ========================================================
-echo   SIGMORA -- Automated Quantitative Test Suite
+echo   VARLYTIX -- Automated Quantitative Test Suite
 echo ========================================================
 
 cd /d "%~dp0"
